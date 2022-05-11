@@ -1,0 +1,29 @@
+.travelCard {
+    width: 100%;
+    background-color: rgb(212, 212, 212);
+    border: 1 solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.photoGalery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+    border: 1 solid black;
+    .contPhoto{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        img {
+            width: 100%;
+            margin: 1%;
+            padding: 3%;
+        }
+        Button {
+            margin: 2%;
+            padding: 3%;
+        }
+    }
+}

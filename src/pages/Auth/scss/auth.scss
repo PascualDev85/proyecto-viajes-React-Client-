@@ -1,0 +1,19 @@
+.contAuth {
+    height: 100vh;
+    background-image: url(../../../../public/assets/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.divRegister {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10%;
+    border: 4px solid black;
+    margin-top: 10vh;
+    background-color: #fafafa;
+}
